@@ -1,10 +1,3 @@
-document.getElementById('in').oninput = function() {
-    let help = document.getElementById('help');
-    help.innerHTML = String.fromCharCode(112);
-    let str = this.value;
-    console.log(str.charCodeAt(0)); 
-};
-
 let code = 'hello';
 
 let code1 = 'abc';
@@ -20,3 +13,4 @@ function cezar (sting) {
  return clone;
 }
 console.log(cezar(code1));
+console.log(cezar(code));
