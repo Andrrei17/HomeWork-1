@@ -7,12 +7,14 @@ function bubbleSort(array) {
     array.sort((a, b) => {
         return a - b;
     });
-   bubble.push(array);
+   bubble.push(...array);
   
   return bubble;
 }
 
 console.log(bubbleSort(arr));
+
+
 
 
 
